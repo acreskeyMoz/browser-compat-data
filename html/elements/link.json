@@ -854,7 +854,7 @@
                 "edge": "mirror",
                 "firefox": {
                   "version_added": "39",
-                  "notes": "Before Firefox 41, it doesn't obey the <code>crossorigin</code> attribute."
+                  "notes": "Before Firefox 41, it doesn't obey the <code>crossorigin</code> attribute. Regressed in Firefox 66, fixed in Firefox 115 (<a href='https://bugzil.la/1543990'>bug 1543990</a>)"
                 },
                 "firefox_android": "mirror",
                 "ie": {
